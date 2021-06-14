@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    * {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+
+  <body class="h-screen bg-gray-50 flex justify-center items-center">
+    <div class="md:w-1/3 mx-auto bg-white shadow rounded">
+      <div class="p-4">
+        <header class="flex justify-between items-center">
+          <h2 class="text-4xl font-bold">volutpat feugiat</h2>
+          <div class="text-xs">
+            <button class="text-blue-400 hover:text-blue-500 hover:underline">Edit</button>
+            <button class="ml-2 text-red-400 hover:text-red-500 hover:underline">Delete</button>
+          </div>
+        </header>
+        <div>
+          <p class="py-4 text-gray-900">
+            Proin eleifend leo eget condimentum condimentum. Nullam eu porta
+            nisl. Nunc non tincidunt libero, non dictum lectus. Sed urna turpis,
+            convallis ac sem sed, faucibus porttitor lacus. Suspendisse nec
+            semper lectus, sit amet tincidunt quam. Sed tristique elit malesuada
+            nulla sollicitudin, non pretium leo interdum. Nullam a faucibus
+            ipsum, quis blandit tortor. Proin ante odio, lobortis tincidunt
+            tempor vel, lacinia eget lectus.
+          </p>
+        </div>
+        <footer class="flex justify-between items-center">
+          <div class="text-xs">
+            <span class="py-1 px-2 bg-blue-400 text-white rounded-full"
+              >rhoncus</span
+            >
+            <span class="py-1 px-2 bg-blue-400 text-white rounded-full"
+              >rhoncus</span
+            >
+            <span class="py-1 px-2 bg-blue-400 text-white rounded-full"
+              >rhoncus</span
+            >
+            <span class="py-1 px-2 bg-blue-400 text-white rounded-full"
+              >rhoncus</span
+            >
+          </div>
+          <button class="text-sm text-red-500 hover:text-red-600 hover:underline">Close</button>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
